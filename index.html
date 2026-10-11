@@ -1185,7 +1185,7 @@ function renderReceipt() {
   logo.addEventListener("error", () => logo.remove(), { once: true });
   logo.src = "Logo.png";
   r.append(logo);
-  r.append(anim(el("h2", "r-title", "Your order")));
+  r.append(anim(el("h2", "r-title", "Your order! :D")));
 
   const meta = el("div", "r-meta");
   const d = new Date(receipt.time);
